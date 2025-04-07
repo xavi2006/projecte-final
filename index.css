@@ -3,18 +3,22 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: rgb(90, 90, 90)
 }
 .container {
     max-width: 900px;
-    margin: 50px auto;
+    margin: 100px auto;
+ 
 }
-h1 {
+h1,h2 {
     font-size: 32px;
-    margin-bottom: 10px;
+    margin-bottom: 5x;
+    color: #fff;
 }
+
+
 p {
-    color: #666;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 .button {
@@ -22,18 +26,18 @@ p {
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
 }
 .gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 100px;
-    margin-top: 20px;
+    gap: 155px;
+    margin-top: 50px;
 }
 .gallery img {
-    width: 150%;
+    width: 300%;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s;
