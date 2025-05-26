@@ -3,9 +3,10 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
+   
   }
 
-  .hero {
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,22 +17,22 @@ body {
     box-sizing: border-box;
   }
 
-  .hero-text {
+  .texto-container {
     max-width: 40%;
   }
 
-  .hero-text h1 {
+  .texto-container h1 {
     font-size: 48px;
     margin-bottom: 20px;
   }
 
-  .hero-text p {
+  .texto-container p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 30px;
   }
 
-  .hero-text button {
+  .texto-container button {
     padding: 12px 24px;
     background-color: white;
     color: black;
@@ -41,7 +42,7 @@ body {
     cursor: pointer;
   }
 
-  .features {
+  .container2 {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -49,7 +50,7 @@ body {
     background: rgba(0, 0, 0, 0.7);
   }
 
-  .feature-box {
+  .box {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 20px;
@@ -58,12 +59,12 @@ body {
     backdrop-filter: blur(10px);
   }
 
-  .feature-box h3 {
+  .box h3 {
     margin: 0 0 10px;
     font-size: 20px;
   }
 
-  .feature-box p {
+  .box p {
     margin: 0;
     font-size: 14px;
   }
