@@ -1,81 +1,72 @@
-body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   body {
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f7f7f7;
+      padding: 40px;
+      background: #fff;
       color: #333;
-      align-items: center;
-    justify-content: center;
-    display: flex;
-    min-height: 100vh;
+      
     }
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-
-    .heading {
-      text-align: center;
-      margin-bottom: 60px;
-    }
-
-    .heading h1 {
-      font-size: 2.8em;
+    h1 {
+      font-size: 3em;
       font-weight: 700;
-      line-height: 1.3;
+      max-width: 700px;
+      margin-bottom: 40px;
     }
 
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 30px;
+    .bloques {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
     }
 
-    .card-block {
-      text-align: center;
+    .columna {
+      flex: 1;
+      min-width: 200px;
+      max-width: 250px;
     }
 
-    .card-block h2 {
+    .num {
       font-size: 1.5em;
-      color: #999;
-      margin: 0;
+      color: #aaa;
+      margin-bottom: 10px;
     }
 
-    .card-block p {
-      margin: 8px 0 20px;
-      color: #666;
+    .descri {
+      font-size: 0.95em;
+      color: #555;
+      margin-bottom: 20px;
     }
 
-    .card {
-      border-radius: 12px;
+    .carta {
+      border-radius: 20px;
       overflow: hidden;
       position: relative;
-      height: 250px;
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: flex-end;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      background: #eee;
     }
 
-    .card-content {
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
-      color: white;
-      padding: 20px;
+    .carta img {
       width: 100%;
+      display: block;
     }
 
-    .card-content h3 {
-      margin: 0;
+    .texto-carta {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 15px;
+      width: 100%;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
+      color: #fff;
+    }
+
+    .texto-carta h3 {
+      margin: 0 0 5px;
       font-size: 1.1em;
-      font-weight: bold;
     }
 
-    .card-content p {
-      font-size: 0.9em;
-      margin-top: 5px;
+    .texto-carta p {
+      font-size: 0.85em;
+      margin: 0;
     }
-
    
